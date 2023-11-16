@@ -3,7 +3,7 @@
 If you have docker installed you can run the following commands
 
 - `docker build -t hunt-weather-service .`
-- `docker run -p 8888:8888 weather-service` (feel free to update port mapping if this is already taken)
+- `docker run -p 8888:8888 hunt-weather-service` (feel free to update port mapping if this is already taken)
 
 Otherwise, make sure you have scala (2.13.8) and sbt (1.9.7) installed and then you can set everything up with sbt:
 
