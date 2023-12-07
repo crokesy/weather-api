@@ -29,5 +29,6 @@ lazy val root = (project in file("."))
       "com.twitter" %% "finatra-http-server" % versions.finatra % "test" classifier "tests",
       "org.scalatest" %% "scalatest" % versions.scalatest % "test",
       "org.mockito" % "mockito-core" % versions.mockito % "test"
-    )
+    ),
+    javacOptions ++= Seq("-source", "1.8", "-target", "1.8")
   )
